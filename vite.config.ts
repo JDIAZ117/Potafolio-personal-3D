@@ -3,6 +3,7 @@ import vue from "@vitejs/plugin-vue";
 import glsl from "vite-plugin-glsl";
 
 export default defineConfig({
+  base: '/Potafolio-personal-3D/',
   plugins: [
     vue(),
     glsl({
